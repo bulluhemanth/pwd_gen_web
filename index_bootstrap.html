@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+    <title>Pass_Gen_with_bootstrap</title>
+  </head>
+
+  <body>
+    <h1>Pass_Gen_Bootstrap</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">
+              With supporting text below as a natural lead-in to additional
+              content.
+            </p>
+            <div class="col d-flex justify-content-center">
+              <span id="slider_value" style="color: white;"> slider </span>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <span
+                class="badge bg-danger"
+                id="slide"
+                style="color: whitesmoke;"
+              >
+                ↓ slide to set length ↓</span
+              >
+            </div>
+
+            <p></p>
+            <div class="col d-flex justify-content-center">
+              <input
+                width="400"
+                type="range"
+                min="8"
+                max="24"
+                onchange="show_value(this.value)"
+              />
+            </div>
+            <p></p>
+            <div class="col d-flex justify-content-center">
+              <span
+                class="badge bg-success"
+                id="new_pass"
+                style="color: whitesmoke;"
+              ></span>
+            </div>
+            <p></p>
+            <div class="col d-flex justify-content-center">
+              <span>
+                <button
+                  title="sorry! could not copy the code from anywhere ;)"
+                  class="btn btn-light"
+                  onclick=" copyToClipboard( )"
+                >
+                  <i class="fa-solid fa-copy"></i></button
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/pwd_gen.js"></script>
+  </body>
+</html>
