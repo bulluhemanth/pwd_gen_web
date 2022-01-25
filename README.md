@@ -10,3 +10,6 @@ Tech stack being used
 #HTML
 #CSS
 #javaScript
+
+
+Also I might've copied the code from somewhere and merged it really sloppy. But that's what engineering is right? Combining the concepts you know and build something?
